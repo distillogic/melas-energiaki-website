@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /crm/
+Disallow: /academy/
+
+Sitemap: https://melasenergiaki.gr/sitemap.xml

@@ -1,0 +1,14 @@
+.placement-panel{padding:24px!important;margin:0 0 24px!important}
+.placement-tools{display:flex;flex-wrap:wrap;align-items:end;gap:10px;margin:18px 0}
+.placement-tools label{display:grid;gap:5px}.placement-tools select{min-width:110px}
+.placement-tools .is-selected{outline:3px solid #176afc;outline-offset:2px}
+#placement-stage{position:relative;max-width:100%;margin:16px auto;background:#fff;box-shadow:0 1px 8px #0002}
+#placement-source,#placement-result{display:block;width:100%;height:auto}
+#placement-result{max-width:1000px;margin:auto}
+#placement-overlay{position:absolute;inset:0;touch-action:none;cursor:crosshair}
+.placement-box{position:absolute;box-sizing:border-box;border:2px solid #176afc;background:rgba(23,106,252,.07);pointer-events:none}
+.placement-box span{position:absolute;bottom:100%;left:0;white-space:nowrap;background:#176afc;color:white;font:12px Arial;padding:2px 5px}
+.placement-confirm{display:flex;align-items:center;gap:10px;margin:20px 0}
+.placement-confirm input{width:20px;height:20px;flex:none}
+.placement-panel[hidden]{display:none!important}
+@media(max-width:600px){.placement-panel{padding:12px!important}.placement-tools{gap:8px}.placement-tools .button{font-size:13px;padding:8px}}

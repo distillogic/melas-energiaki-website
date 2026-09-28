@@ -1,0 +1,11 @@
+.crm-workspace-switch{margin:0 2px 20px;border:1px solid #40516b;border-radius:12px;color:#edf3fc;background:#21314a;flex-shrink:0}
+.crm-workspace-switch summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px;cursor:pointer;border-radius:12px}
+.crm-workspace-switch summary::-webkit-details-marker{display:none}
+.crm-workspace-switch summary small{display:block;color:#b6c5da;font-size:8px;letter-spacing:.1em;margin-bottom:5px}
+.crm-workspace-switch summary strong{font-size:12px;font-weight:600}
+.crm-workspace-options{padding:0 8px 10px;border-top:1px solid #40516b}
+.crm-workspace-options>a,.crm-workspace-current{display:flex;justify-content:space-between;gap:6px;padding:10px 6px;font-size:12px;text-decoration:none;border-radius:7px;color:#fff}
+.crm-workspace-current{color:#9bb6dc;font-size:10px}
+.crm-workspace-options>a:hover{background:#354c6d}
+.crm-workspace-options>small{display:block;font-size:10px;line-height:1.5;color:#bdcada;padding:7px 6px 0}
+.crm-workspace-switch :focus-visible{outline:2px solid #91bcff;outline-offset:2px}

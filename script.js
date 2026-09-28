@@ -1,6 +1,7 @@
 const translations = {
   el: {},
   en: {
+    careers:"Become a sales partner",
     skip:"Skip to main content",navHome:"Home",navAbout:"About",navServices:"Services",navContact:"Contact",
     heroEyebrow:"Welcome to MELAS ENERGY",heroTitle:"Empowering the world with affordable solar energy solutions",heroCopy:"From design to operation, we build photovoltaic projects with consistency, expertise and respect for the environment.",seeServices:"Explore our services",talkToUs:"Talk to our team",
     statPanels:"Reused solar panels",tons:"tonnes",statWaste:"Electronic waste prevented",countries:"countries",statRegions:"Across Europe, Africa and Asia",

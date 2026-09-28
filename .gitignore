@@ -1,0 +1,45 @@
+# Live credentials: commit only placeholder examples.
+**/config.php
+**/*.config.php
+**/config.local.*
+**/.env
+**/.env.*
+!**/.env.example
+!**/config.example.php
+!**/*.config.example.php
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Application data belongs in secured backups, not Git.
+**/storage/**
+**/uploads/**
+**/sessions/**
+**/logs/**
+**/assets/signatures/**
+**/private-assets/signatures/**
+!**/assets/signatures/.htaccess
+!**/private-assets/signatures/.htaccess
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.bak
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Retired one-off credential presets must never be published again.
+**/*access-preset.php
+**/activate-papadopoulos.php
+**/user-access-*/
+tmp/
+.runtime/
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

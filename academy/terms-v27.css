@@ -1,0 +1,10 @@
+.term-definition{font-size:.92em;font-weight:400;letter-spacing:normal;text-transform:none;line-height:1.65}
+h1 .term-definition,h2 .term-definition,h3 .term-definition{display:inline;font-size:.6em}
+abbr[title]{text-decoration:underline dotted;text-underline-offset:3px;cursor:help}
+.ac-attempt-policy{padding:18px 20px;border-inline-start:4px solid #347466;background:#edf6f2;border-radius:8px;line-height:1.7}
+.school-main details>summary{cursor:pointer}
+.term-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;padding:0;list-style:none}
+.term-list li{padding:18px;border:1px solid #cddbd8;border-radius:14px;overflow-wrap:anywhere}
+.term-list strong{display:block;margin-bottom:6px}
+.quiz-answer{border-inline-start:3px solid #347466;padding-inline-start:12px}
+:root[data-scheme="dark"] .ac-attempt-policy{background:#183630;color:#e4f4ed}

@@ -1,0 +1,97 @@
+/* Editorial reader: scoped to theory so dashboard and CRM Lab stay independent. */
+.academy .ac-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}
+.academy .ac-shared-labs{margin-bottom:24px}.academy .ac-shared-labs .ac-button{margin:4px 0;max-width:100%;white-space:normal}
+.academy .ac-pillar-crm-distillogic .ac-pillar-icon{background:#e8edfa;color:#314d82}
+.academy.ac-theory[data-ac-pillar="crm-distillogic"]{--reader-accent:#cad6ff;--reader-cover:#26385a;--reader-tint:#f0f3fa}
+.ac-theory .ac-visual-guide{margin:22px 0;scroll-margin-top:106px}
+.ac-theory .ac-visual-guide>header{padding:26px 30px;border-radius:16px;background:var(--reader-tint);border:1px solid var(--ac-border)}
+.ac-theory .ac-visual-guide h2{font-size:26px;line-height:1.35;margin:12px 0}
+.ac-theory .ac-visual-guide p{font-size:15px;line-height:1.85}
+.ac-theory .ac-visual-guide figure{margin:18px 0;border:1px solid var(--ac-border);border-radius:16px;overflow:hidden;background:var(--surface,#fff)}
+.ac-theory .ac-visual-guide figcaption{padding:24px 30px}
+.ac-theory .ac-visual-guide h3{font-size:20px;line-height:1.4;margin:0 0 12px}
+.ac-theory .ac-visual-guide figcaption p{margin:0}
+.ac-theory .ac-visual-guide figure a{display:block;background:#f4f6f8;padding:12px;text-decoration:none;color:#234a40;text-align:center}
+.ac-theory .ac-visual-guide img{display:block;width:100%;height:auto;border:1px solid #dce3e6;border-radius:8px}
+.ac-theory .ac-visual-guide figure a>span{display:block;font-size:12px;font-weight:650;margin-top:12px}
+.ac-theory .ac-visual-guide figure a:focus-visible{outline-offset:-4px}
+:root[data-scheme="dark"] .academy.ac-theory[data-ac-pillar="crm-distillogic"]{--reader-tint:#2b344c}
+@media(max-width:700px){.academy .ac-pillars{grid-template-columns:1fr}.ac-theory .ac-visual-guide>header,.ac-theory .ac-visual-guide figcaption{padding:22px}.ac-theory .ac-visual-guide h2{font-size:23px}.ac-theory .ac-visual-guide p{font-size:14px}.ac-theory .ac-visual-guide figure a{padding:7px}}
+.academy.ac-theory{--reader-accent:#d9ef9d;--reader-cover:#153f36;--reader-tint:#eef4ee}
+.academy.ac-theory[data-ac-pillar="distillogic"]{--reader-accent:#cad6ff;--reader-cover:#26385a;--reader-tint:#f0f3fa}
+.academy.ac-theory[data-ac-pillar="crm"]{--reader-accent:#f4dba3;--reader-cover:#244545;--reader-tint:#f6f2e9}
+.ac-theory .ac-learning-layout{grid-template-columns:270px minmax(0,1fr);gap:30px;align-items:start}
+.ac-theory .ac-syllabus{padding:21px;display:block;max-height:calc(100dvh - 112px);overflow-y:auto;scrollbar-width:thin;top:90px}
+.ac-theory .ac-course-identity{display:flex;align-items:center;gap:12px;margin-bottom:19px}
+.ac-theory .ac-course-symbol{display:grid;place-items:center;flex:0 0 42px;height:42px;border-radius:12px;background:var(--reader-tint);color:var(--ac-teal)}
+.ac-theory .ac-course-symbol svg{width:22px;height:22px}
+.ac-theory .ac-course-identity .ac-kicker{font-size:9px;letter-spacing:.09em;display:block;margin-bottom:5px}
+.ac-theory .ac-course-identity strong{display:block;font-size:15px;line-height:1.35}
+.ac-theory .ac-course-progress{font-size:11px;color:var(--ac-muted);line-height:1.7;margin-bottom:22px}
+.ac-theory .ac-course-progress progress{margin-top:9px;height:5px;width:100%}
+.ac-theory .ac-syllabus summary{font-size:12px;cursor:pointer;line-height:1.5}
+.ac-theory .ac-lesson-outline>summary>span{display:block;font-size:10px;font-weight:400;color:var(--ac-muted);padding-left:14px}
+.ac-theory .ac-lesson-outline ol{padding:10px 0 0;margin:0;list-style:none}
+.ac-theory .ac-lesson-outline li>a{display:flex;align-items:flex-start;gap:10px;font-size:12px;padding:10px 8px;margin:3px -8px;border-radius:8px;line-height:1.5;color:var(--ac-muted)}
+.ac-theory .ac-outline-number{min-width:21px;font-size:10px;font-weight:700;line-height:1.8;font-variant-numeric:tabular-nums}
+.ac-theory .ac-lesson-outline a:hover,.ac-theory .ac-lesson-outline a[aria-current="location"]{background:var(--reader-tint);color:var(--ac-teal)}
+.ac-theory .ac-lesson-outline a[aria-current="location"]{font-weight:650;box-shadow:inset 3px 0 0 var(--ac-teal)}
+.ac-theory .ac-reading-position{border-top:1px solid var(--ac-border);padding-top:18px;margin-top:18px}
+.ac-theory .ac-reading-position>div{display:flex;justify-content:space-between;font-size:10px;color:var(--ac-muted)}
+.ac-theory .ac-reading-position progress{width:100%;height:4px;margin:8px 0}
+.ac-theory .ac-reading-position small{display:block;font-size:10px;line-height:1.6;color:var(--ac-muted)}
+.ac-theory .ac-course-library{margin-top:20px!important;padding-top:17px!important;border-top:1px solid var(--ac-border)!important}
+.ac-theory .ac-course-library>details{margin-top:15px}.ac-theory .ac-course-library li>a{font-size:11px}
+.ac-theory .ac-lesson{background:none;border:0;padding:0;box-shadow:none;min-width:0;overflow:visible}
+.ac-theory .ac-lesson-cover{background:radial-gradient(ellipse at 100% 0%,#ffffff0d,transparent 70%),var(--reader-cover);border-radius:22px;padding:36px 40px;color:#fff;overflow:hidden}
+.ac-theory .ac-cover-top{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.ac-theory .ac-cover-top .ac-kicker{color:var(--reader-accent);font-size:10px;line-height:1.6;letter-spacing:.1em}
+.ac-theory .ac-theory-label{border:1px solid #ffffff38;border-radius:30px;font-size:9px;letter-spacing:.12em;padding:5px 10px;flex-shrink:0;color:#fff}
+.ac-theory .ac-lesson h1{font-size:clamp(29px,3vw,43px);letter-spacing:-.035em;line-height:1.2;color:#fff;margin:24px 0 19px;max-width:22ch;text-wrap:balance}
+.ac-theory .ac-lesson-meta{color:#dce7e2;display:flex;gap:10px 18px;font-size:11px;line-height:1.6;flex-wrap:wrap}
+.ac-theory .ac-goal-card{background:#ffffff0b;border:1px solid #ffffff20;border-left:3px solid var(--reader-accent);border-radius:0 12px 12px 0;margin:27px 0 0;padding:19px 23px}
+.ac-theory .ac-goal-card .ac-kicker{color:var(--reader-accent);font-size:9px;letter-spacing:.13em}
+.ac-theory .ac-lesson .ac-goal{color:#f3f8f5;font-size:16px;line-height:1.7;margin:9px 0 0;border:0;padding:0;max-width:66ch}
+.ac-theory .ac-cover-actions{display:flex;gap:16px 25px;flex-wrap:wrap;margin-top:24px}
+.ac-theory .ac-cover-actions a{display:flex;gap:12px;font-size:12px;color:#fff;align-items:center;text-decoration:none;padding:6px 0;border-bottom:1px solid #ffffff50}
+.ac-theory .ac-cover-actions a:first-child{color:var(--reader-accent)}
+.ac-theory .ac-chapter{background:var(--surface,#fff);border:1px solid var(--ac-border);border-radius:18px;margin:22px 0;padding:32px 40px;scroll-margin-top:106px}
+.ac-theory .ac-chapter-heading{display:flex;align-items:flex-start;gap:16px;margin-bottom:22px}
+.ac-theory .ac-chapter-number{display:grid;place-items:center;flex:0 0 39px;height:39px;border-radius:11px;background:var(--reader-tint);color:var(--ac-teal);font-size:12px;font-weight:700;font-variant-numeric:tabular-nums}
+.ac-theory .ac-chapter h2{font-size:24px;line-height:1.3;letter-spacing:-.025em;margin:3px 0 0;text-wrap:balance}
+.ac-theory .ac-chapter-copy{max-width:70ch}
+.ac-theory .ac-chapter p{font-size:16px;line-height:1.9;margin:0 0 19px;overflow-wrap:break-word}
+.ac-theory .ac-chapter p:last-child{margin-bottom:0}
+.ac-theory .ac-reference{background:var(--surface,#fff);border:1px solid var(--ac-border);border-radius:16px;margin:22px 0;padding:23px 30px;scroll-margin-top:106px}
+.ac-theory .ac-reference>summary{cursor:pointer;font-weight:650;font-size:15px;color:var(--ac-teal)}
+.ac-theory .ac-reference>p{font-size:13px;line-height:1.8;color:var(--ac-muted)}
+.ac-theory .ac-reference section{border-top:1px solid var(--ac-border);margin-top:20px;padding-top:18px}
+.ac-theory .ac-reference h3{font-size:17px;line-height:1.5;margin:0 0 12px}
+.ac-theory .ac-reference p{font-size:14px;line-height:1.9;overflow-wrap:break-word}
+.ac-theory .ac-scenario,.ac-theory .ac-lab{border:1px solid var(--ac-border);border-radius:18px;padding:31px 40px;margin:22px 0;scroll-margin-top:106px}
+.ac-theory .ac-scenario{background:var(--reader-tint)}
+.ac-theory .ac-scenario-heading{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+.ac-theory .ac-scenario-symbol{font-size:25px;border:1px solid var(--ac-border);background:var(--surface,#fff);width:47px;height:47px;display:grid;place-items:center;border-radius:50%;color:var(--ac-teal)}
+.ac-theory .ac-scenario h2{margin:6px 0 0;font-size:25px;line-height:1.3}
+.ac-theory .ac-scenario-prompt{font-size:18px;line-height:1.8;margin:0 0 24px}
+.ac-theory .ac-scenario details{border-top:1px solid var(--ac-border);padding-top:18px}
+.ac-theory .ac-scenario summary{font-size:13px;padding:5px 0;cursor:pointer;color:var(--ac-teal);font-weight:650}
+.ac-theory .ac-scenario details p{font-size:15px;line-height:1.85}
+.ac-theory .ac-source{font-size:11px;line-height:1.85;padding:0 5px;margin:20px 0 30px;color:var(--ac-muted)}
+.ac-theory .ac-quiz{padding:34px 40px;border-radius:18px;scroll-margin-top:106px}
+.ac-theory .ac-quiz-heading{display:flex;align-items:center;gap:15px;margin-bottom:20px}
+.ac-theory .ac-quiz-symbol{display:grid;place-items:center;background:var(--reader-tint);color:var(--ac-teal);width:47px;height:47px;flex:0 0 47px;border-radius:13px}
+.ac-theory .ac-quiz-symbol svg{width:23px;height:23px}
+.ac-theory .ac-quiz-heading h2{font-size:25px;margin:5px 0 0;line-height:1.3}
+.ac-theory .ac-quiz-count{margin-left:auto;color:var(--ac-muted);font-size:10px;white-space:nowrap}
+.ac-theory .ac-quiz>p{font-size:14px;line-height:1.8}
+.ac-theory .ac-quiz-form legend{font-size:16px;line-height:1.65}.ac-theory .ac-choice{font-size:14px;line-height:1.7}
+.ac-theory a:focus-visible,.ac-theory summary:focus-visible{outline:3px solid var(--ac-teal);outline-offset:5px;border-radius:5px}
+.ac-theory .ac-cover-actions a:focus-visible{outline-color:var(--reader-accent)}
+:root[data-scheme="dark"] .academy.ac-theory{--reader-tint:#263d35}
+:root[data-scheme="dark"] .academy.ac-theory[data-ac-pillar="distillogic"]{--reader-tint:#2b344c}
+:root[data-scheme="dark"] .academy.ac-theory[data-ac-pillar="crm"]{--reader-tint:#3b3a2f}
+@media(max-width:1200px){.ac-theory .ac-learning-layout{grid-template-columns:230px minmax(0,1fr);gap:20px}.ac-theory .ac-syllabus{padding:18px}.ac-theory .ac-lesson-cover,.ac-theory .ac-chapter,.ac-theory .ac-quiz,.ac-theory .ac-scenario,.ac-theory .ac-lab{padding:28px}}
+@media(max-width:1050px){.ac-theory .ac-learning-layout{grid-template-columns:minmax(0,1fr);gap:18px}.ac-theory .ac-syllabus{position:static;max-height:none;display:block}.ac-theory .ac-course-identity{margin-bottom:10px}.ac-theory .ac-course-progress{margin-bottom:15px}.ac-theory .ac-reading-position{display:none}.ac-theory .ac-course-library{margin-top:14px!important;padding-top:12px!important}.ac-theory .ac-lesson-outline>summary>span{display:inline;padding-left:10px}.ac-theory .ac-lesson-outline ol{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.ac-theory .ac-lesson-cover{padding:33px}}
+@media(max-width:700px){.ac-theory .ac-lesson-cover{padding:25px 22px;border-radius:16px}.ac-theory .ac-cover-top{align-items:flex-start;gap:12px}.ac-theory .ac-cover-top .ac-kicker{font-size:9px;max-width:24ch}.ac-theory .ac-theory-label{font-size:8px;padding:4px 8px}.ac-theory .ac-lesson h1{font-size:30px;margin:22px 0 17px}.ac-theory .ac-lesson-meta{font-size:10px;gap:6px 13px}.ac-theory .ac-goal-card{padding:16px 17px;margin-top:22px}.ac-theory .ac-lesson .ac-goal{font-size:14px;line-height:1.8}.ac-theory .ac-cover-actions{gap:10px 20px;margin-top:19px}.ac-theory .ac-cover-actions a{font-size:11px}.ac-theory .ac-lesson-outline ol{display:block}.ac-theory .ac-chapter{padding:24px 21px;margin:16px 0;border-radius:14px}.ac-theory .ac-chapter-heading{gap:12px;margin-bottom:18px}.ac-theory .ac-chapter-number{flex-basis:32px;height:32px;border-radius:9px;font-size:10px}.ac-theory .ac-chapter h2{font-size:21px;line-height:1.35;margin:1px 0 0}.ac-theory .ac-chapter p{font-size:15px;line-height:1.85;margin-bottom:18px}.ac-theory .ac-reference{padding:21px;margin:16px 0}.ac-theory .ac-reference>summary{font-size:14px;line-height:1.6}.ac-theory .ac-scenario,.ac-theory .ac-lab,.ac-theory .ac-quiz{padding:24px 21px;border-radius:14px;margin:16px 0}.ac-theory .ac-scenario-prompt{font-size:16px}.ac-theory .ac-scenario h2,.ac-theory .ac-quiz h2{font-size:22px}.ac-theory .ac-quiz-heading{gap:12px;flex-wrap:wrap}.ac-theory .ac-quiz-count{margin-left:59px;margin-top:-8px}.ac-theory .ac-quiz-form legend{font-size:14px}.ac-theory .ac-choice{font-size:13px}.ac-theory .ac-bottom-nav{gap:10px;flex-wrap:wrap}.ac-theory .ac-bottom-nav .ac-button{min-width:130px;white-space:normal;text-align:center}}
+@media print{.ac-theory .ac-cover-actions,.ac-theory .ac-theory-label{display:none}.ac-theory .ac-learning-layout{display:block}.ac-theory .ac-lesson-cover{background:white;color:#111;padding:0;border-radius:0}.ac-theory .ac-lesson h1,.ac-theory .ac-cover-top .ac-kicker,.ac-theory .ac-lesson-meta,.ac-theory .ac-goal-card .ac-kicker,.ac-theory .ac-lesson .ac-goal{color:#111}.ac-theory .ac-goal-card{background:white;border:1px solid #aaa}.ac-theory .ac-chapter{break-inside:auto;padding:20px 0;border:0;border-bottom:1px solid #ccc}.ac-theory .ac-chapter-heading{break-after:avoid}.ac-theory .ac-chapter p{font-size:12px}.ac-theory .ac-scenario,.ac-theory .ac-reference{background:white;color:#111;border:1px solid #bbb;padding:15px}.ac-theory .ac-reference::details-content,.ac-theory .ac-scenario details::details-content{display:block;content-visibility:visible}.ac-theory .ac-quiz{padding:15px 0}}

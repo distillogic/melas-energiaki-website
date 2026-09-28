@@ -1,0 +1,1178 @@
+Πάμε στο Master Services Agreement (MSA) — το βασικό συμβόλαιο-ομπρέλα της DISTILLOGIC.
+
+Η λογική είναι:
+
+MSA = οι γενικοί νομικοί/εμπορικοί κανόνες συνεργασίας
+SOW = τι ακριβώς κάνουμε σε κάθε συγκεκριμένο project
+
+Άρα με έναν μεγάλο πελάτη μπορείς να υπογράψεις ένα MSA και μετά 5 διαφορετικά SOWs χωρίς να ξαναδιαπραγματεύεσαι από την αρχή όλο το νομικό πλαίσιο.
+
+DISTILLOGIC TECHNOLOGIES
+MASTER SERVICES AGREEMENT
+Software Engineering & Technology Delivery
+Agreement Reference: DL-MSA-[NUMBER]
+Version: 1.0
+Effective Date: [DATE]
+Classification: Commercial Confidential
+
+1. PARTIES
+This Master Services Agreement (the “Agreement”) is entered into as of [EFFECTIVE DATE] by and between:
+
+[FULL LEGAL COMPANY NAME], trading as DISTILLOGIC TECHNOLOGIES, a company organised and existing under the laws of Greece, having its registered office at [ADDRESS], Patras, Greece, VAT / Tax Identification Number [VAT NUMBER], GEMI / Registration Number [GEMI NUMBER],
+
+hereinafter referred to as “DISTILLOGIC”,
+
+and
+
+[CLIENT FULL LEGAL NAME], a company organised and existing under the laws of [COUNTRY], having its registered office at [ADDRESS], registration / VAT number [NUMBER],
+
+hereinafter referred to as the “Client.”
+
+DISTILLOGIC and the Client may each be referred to individually as a “Party” and together as the “Parties.”
+
+2. PURPOSE
+This Agreement establishes the general legal, commercial and operational framework under which DISTILLOGIC may provide software engineering, technology delivery and related professional services to the Client.
+
+Specific services shall be authorised through one or more:
+
+Statements of Work;
+
+Purchase Orders;
+
+Call-Off Orders;
+
+Project Orders;
+
+Change Requests;
+
+or other mutually agreed written engagement documents.
+
+Each authorised engagement shall form part of this Agreement.
+
+3. SCOPE OF SERVICES
+Services may include, without limitation:
+
+Software Engineering
+
+Systems Integration
+
+Application Modernisation
+
+Cloud & Platform Engineering
+
+Data & AI Engineering
+
+Quality Engineering
+
+Application Management
+
+Technology Delivery
+
+Architecture & Technical Consulting
+
+Dedicated Engineering Teams
+
+Engineering Squads
+
+Work Package Delivery
+
+Staff Augmentation
+
+Managed Services
+
+Technical Support
+
+Project & Delivery Management
+
+No specific volume of work is guaranteed unless expressly stated in an applicable Statement of Work.
+
+4. STATEMENTS OF WORK
+Each project or engagement should be described in a separate Statement of Work (“SOW”).
+
+A SOW may define:
+
+scope;
+
+deliverables;
+
+responsibilities;
+
+team structure;
+
+delivery model;
+
+timeline;
+
+milestones;
+
+acceptance criteria;
+
+pricing;
+
+payment schedule;
+
+service levels;
+
+assumptions;
+
+dependencies;
+
+project-specific contractual terms.
+
+A SOW becomes binding when accepted by authorised representatives of both Parties or through another mutually agreed commercial authorisation process.
+
+5. ORDER OF PRECEDENCE
+In the event of inconsistency between contractual documents, the following order of precedence shall apply unless expressly agreed otherwise:
+
+signed amendment to this Agreement;
+
+applicable Statement of Work, but only for project-specific matters expressly intended to override this Agreement;
+
+this Master Services Agreement;
+
+applicable Data Processing Agreement;
+
+applicable Purchase Order or Call-Off Order;
+
+accepted Commercial Proposal;
+
+other incorporated project documents.
+
+A Client Purchase Order shall not amend this Agreement merely by containing additional or conflicting standard terms unless expressly accepted in writing by DISTILLOGIC.
+
+6. DELIVERY MODELS
+Services may be delivered under one or more commercial models.
+
+Fixed Price
+Delivery against an agreed scope and price.
+
+Time & Materials
+Billing based on approved actual effort.
+
+Dedicated Team
+Reserved team capacity for an agreed period.
+
+Work Package
+Defined technical delivery responsibility within a wider programme.
+
+Monthly Retainer
+Recurring service capacity.
+
+Managed Services
+Ongoing service under agreed operational terms.
+
+The applicable model shall be defined in the relevant SOW.
+
+7. PERFORMANCE OF SERVICES
+DISTILLOGIC shall perform the Services:
+
+professionally;
+
+using appropriately skilled personnel;
+
+in accordance with the applicable SOW;
+
+using commercially reasonable care and skill;
+
+in accordance with applicable agreed technical standards.
+
+DISTILLOGIC retains responsibility for organising and managing its personnel unless a SOW expressly provides otherwise.
+
+8. CLIENT RESPONSIBILITIES
+The Client shall provide all cooperation reasonably required for the Services, including where applicable:
+
+timely decisions;
+
+stakeholder access;
+
+business requirements;
+
+technical documentation;
+
+system access;
+
+test environments;
+
+credentials;
+
+test data;
+
+architecture information;
+
+third-party coordination;
+
+approvals;
+
+acceptance decisions;
+
+Purchase Orders;
+
+other dependencies identified in the SOW.
+
+DISTILLOGIC shall not be responsible for delays caused by material Client dependencies outside its reasonable control.
+
+9. PERSONNEL
+DISTILLOGIC may assign employees, contractors, consultants or approved subcontractors to perform Services.
+
+DISTILLOGIC shall determine personnel allocation according to:
+
+required role;
+
+technical expertise;
+
+seniority;
+
+availability;
+
+project requirements.
+
+Where named personnel are specified in a SOW, DISTILLOGIC shall use reasonable efforts to maintain those assignments.
+
+10. RESOURCE REPLACEMENT
+DISTILLOGIC may replace assigned personnel where reasonably necessary due to:
+
+resignation;
+
+illness;
+
+unavailability;
+
+performance;
+
+operational requirements;
+
+changing project needs.
+
+Where practicable, replacement personnel shall have reasonably equivalent qualifications and capability.
+
+DISTILLOGIC shall use reasonable efforts to minimise disruption caused by replacement.
+
+11. SUBCONTRACTORS
+DISTILLOGIC may use qualified subcontractors in the performance of Services where appropriate.
+
+DISTILLOGIC shall remain responsible for the performance of its subcontractors to the extent specified under this Agreement.
+
+Subcontractors with access to Client Confidential Information shall be subject to appropriate confidentiality obligations.
+
+Where required by applicable data-protection law, subcontractors processing personal data shall be governed by appropriate contractual safeguards.
+
+12. PROJECT GOVERNANCE
+Each material engagement should identify appropriate project governance.
+
+Governance may include:
+
+Client Project Owner;
+
+DISTILLOGIC Delivery Owner;
+
+Technical Lead;
+
+Project Manager;
+
+escalation contacts;
+
+steering meetings;
+
+status reporting;
+
+risk management;
+
+change control.
+
+Governance arrangements shall be proportionate to project size and complexity.
+
+13. CHANGE CONTROL
+Changes to an agreed SOW may affect:
+
+scope;
+
+deliverables;
+
+architecture;
+
+resources;
+
+timeline;
+
+milestones;
+
+commercial value;
+
+acceptance criteria.
+
+Material changes should be documented through an approved Change Request or SOW amendment.
+
+DISTILLOGIC is not required to perform material additional scope without appropriate written commercial authorisation.
+
+14. FEES
+The Client shall pay the fees defined in the applicable:
+
+SOW;
+
+Commercial Proposal;
+
+Rate Card;
+
+Purchase Order;
+
+or other accepted commercial document.
+
+Unless expressly stated otherwise:
+
+All fees are exclusive of VAT and applicable taxes.
+15. PRICING
+Pricing may be based on:
+
+hourly rates;
+
+daily rates;
+
+monthly fees;
+
+project fees;
+
+milestone fees;
+
+retainers;
+
+blended team rates;
+
+other agreed structures.
+
+Rates and project prices may vary according to:
+
+technical complexity;
+
+seniority;
+
+engagement duration;
+
+resource volume;
+
+service levels;
+
+payment terms;
+
+contractual risk;
+
+location requirements;
+
+mobilisation requirements.
+
+16. INVOICING
+Invoices shall be issued according to the applicable SOW.
+
+They may be issued:
+
+monthly;
+
+by milestone;
+
+in advance;
+
+on mobilisation;
+
+through recurring retainer billing;
+
+or under another agreed structure.
+
+Where required, invoices may include:
+
+Purchase Order reference;
+
+SOW reference;
+
+project reference;
+
+approved timesheets;
+
+billing period;
+
+milestone reference;
+
+applicable rates;
+
+expenses;
+
+tax information.
+
+17. PAYMENT TERMS
+Unless otherwise stated in the applicable SOW:
+
+Standard Payment Term: Net 30
+Payment is due within thirty (30) calendar days from the date of a valid and undisputed invoice.
+
+Alternative terms, including Net 15, Net 45 or Net 60, may be agreed in writing.
+
+Extended payment terms may result in different commercial pricing where they materially affect delivery financing.
+
+18. MOBILISATION PAYMENTS
+An applicable SOW may require a mobilisation or advance payment before DISTILLOGIC:
+
+reserves significant engineering capacity;
+
+allocates dedicated personnel;
+
+incurs material project costs;
+
+establishes project environments;
+
+commences delivery.
+
+Mobilisation payments shall normally form part of the total agreed project value unless expressly stated otherwise.
+
+19. DISPUTED INVOICES
+The Client shall notify DISTILLOGIC promptly of any good-faith invoice dispute.
+
+The notice should identify:
+
+invoice number;
+
+disputed amount;
+
+reason for dispute;
+
+supporting information.
+
+The undisputed portion remains payable according to the original due date.
+
+A dispute regarding one invoice shall not automatically suspend payment of other valid and undisputed invoices.
+
+20. LATE PAYMENT
+If an undisputed invoice becomes overdue, DISTILLOGIC may:
+
+issue written payment reminders;
+
+request immediate settlement;
+
+charge applicable contractual or statutory interest where permitted;
+
+recover eligible collection costs;
+
+suspend Services where permitted under this Agreement.
+
+The Parties shall use reasonable efforts to resolve payment issues promptly.
+
+21. SUSPENSION FOR NON-PAYMENT
+Where a material undisputed amount remains overdue, DISTILLOGIC may suspend Services after:
+
+written notice to the Client; and
+
+a reasonable opportunity to cure the payment default.
+
+Immediate suspension may be permitted where continued delivery would create material financial, security or legal risk.
+
+A permitted suspension for Client non-payment shall not constitute voluntary abandonment of the Services by DISTILLOGIC.
+
+22. EXPENSES
+Unless expressly included in pricing, approved project expenses may be invoiced separately.
+
+These may include:
+
+travel;
+
+accommodation;
+
+transport;
+
+visas;
+
+project-specific software;
+
+third-party services;
+
+specialised infrastructure.
+
+Material reimbursable expenses should be approved in advance where practicable.
+
+23. TAXES
+Each Party shall be responsible for taxes legally imposed upon it.
+
+Fees quoted by DISTILLOGIC are exclusive of:
+
+VAT;
+
+sales taxes;
+
+withholding taxes;
+
+similar applicable taxes,
+
+unless expressly stated otherwise.
+
+Where withholding is legally required, the Parties shall cooperate in good faith regarding appropriate tax documentation.
+
+24. ACCEPTANCE
+Where deliverables are subject to formal acceptance, the applicable SOW shall define:
+
+deliverables;
+
+acceptance criteria;
+
+review period;
+
+rejection procedure.
+
+Unless otherwise agreed, the Client should provide acceptance or a documented material rejection within:
+
+10 business days
+of delivery.
+
+Any rejection must identify the relevant unmet acceptance criteria.
+
+25. DEEMED ACCEPTANCE
+Where expressly incorporated into the applicable SOW, a deliverable may be deemed accepted if:
+
+the agreed review period expires without material written rejection;
+
+the Client deploys the deliverable to production;
+
+the Client materially uses the deliverable for business operations;
+
+the Client proceeds to a dependent project milestone.
+
+26. INTELLECTUAL PROPERTY — PRE-EXISTING MATERIALS
+Each Party retains all rights in intellectual property owned or developed independently before the applicable engagement.
+
+DISTILLOGIC retains ownership of its pre-existing:
+
+methodologies;
+
+frameworks;
+
+libraries;
+
+templates;
+
+development tools;
+
+processes;
+
+know-how;
+
+reusable components;
+
+generic technical materials.
+
+No ownership transfer occurs unless expressly agreed.
+
+27. PROJECT DELIVERABLES
+Ownership of project-specific deliverables shall be defined in the applicable SOW.
+
+Where the Parties agree that project-specific intellectual property will transfer to the Client, such transfer may be conditional upon:
+
+full payment of the corresponding agreed fees.
+Any transfer shall not automatically include DISTILLOGIC pre-existing materials or generic reusable know-how.
+
+28. OPEN-SOURCE SOFTWARE
+Deliverables may contain or depend upon open-source software.
+
+Open-source components shall remain subject to their applicable licences.
+
+Nothing in this Agreement transfers ownership of third-party open-source software to either Party.
+
+29. THIRD-PARTY MATERIALS
+Third-party software, tools, platforms or services remain subject to the rights and restrictions imposed by their respective owners.
+
+The Client shall be responsible for required third-party licences where the applicable SOW so provides.
+
+30. CONFIDENTIALITY
+Each Party shall protect the other Party's Confidential Information.
+
+Where a separate Mutual Non-Disclosure Agreement has been executed, that NDA shall continue to apply unless expressly superseded.
+
+Confidential Information includes, without limitation:
+
+business information;
+
+pricing;
+
+technical information;
+
+architecture;
+
+source code;
+
+security information;
+
+customer information;
+
+CVs;
+
+engineering profiles;
+
+project documentation.
+
+31. CLIENT DATA
+Client Data remains the property of the Client or its applicable owner.
+
+DISTILLOGIC shall use Client Data solely as necessary to perform the Services.
+
+DISTILLOGIC shall not acquire ownership rights in Client Data merely by processing or accessing it.
+
+32. DATA PROTECTION
+Each Party shall comply with applicable data-protection legislation.
+
+Where DISTILLOGIC processes personal data on behalf of the Client in a manner requiring a processor agreement, the Parties shall execute an appropriate:
+
+Data Processing Agreement (DPA)
+before or in connection with the relevant processing activity.
+
+33. INFORMATION SECURITY
+DISTILLOGIC shall apply reasonable technical and organisational measures proportionate to the applicable engagement.
+
+Measures may include:
+
+identity management;
+
+access controls;
+
+role-based permissions;
+
+authentication controls;
+
+secrets management;
+
+encryption;
+
+secure development practices;
+
+dependency management;
+
+code review;
+
+logging;
+
+monitoring;
+
+auditability.
+
+Client-specific security requirements shall be documented separately where required.
+
+34. SECURITY INCIDENTS
+Where DISTILLOGIC becomes aware of a confirmed security incident materially affecting Client systems or data under its control, DISTILLOGIC shall notify the Client without undue delay in accordance with applicable contractual and legal requirements.
+
+The Parties shall cooperate reasonably in investigating and mitigating the incident.
+
+35. WARRANTIES
+DISTILLOGIC warrants that Services will be performed:
+
+professionally;
+
+with commercially reasonable care and skill;
+
+by appropriately qualified personnel;
+
+materially in accordance with the applicable SOW.
+
+Unless expressly stated otherwise, DISTILLOGIC does not warrant that software will be entirely error-free or uninterrupted.
+
+36. DEFECT REMEDIATION
+Where a fixed-price deliverable materially fails agreed acceptance criteria due to a defect attributable to DISTILLOGIC, DISTILLOGIC shall use reasonable efforts to correct the defect within an appropriate period.
+
+This obligation does not apply where the issue arises primarily from:
+
+Client changes;
+
+unauthorised modifications;
+
+third-party systems;
+
+unsupported environments;
+
+incorrect Client information;
+
+misuse;
+
+requirements outside the agreed scope.
+
+37. EXCLUDED WARRANTIES
+Except as expressly provided in this Agreement or an applicable SOW, all other warranties shall be excluded to the maximum extent permitted by applicable law.
+
+38. LIMITATION OF LIABILITY
+Except for liabilities that cannot legally be limited or excluded, each Party's aggregate liability arising from a specific SOW should normally be limited to:
+
+[100% OF FEES PAID OR PAYABLE UNDER THE AFFECTED SOW DURING THE PRECEDING 12 MONTHS]
+or such other liability cap as the Parties agree in the applicable SOW.
+
+The final liability cap should be commercially appropriate to:
+
+project value;
+
+risk;
+
+insurance;
+
+regulatory exposure;
+
+service criticality.
+
+39. EXCLUSION OF INDIRECT LOSS
+To the maximum extent permitted by applicable law, neither Party shall be liable to the other for indirect, incidental or consequential losses, including loss of:
+
+anticipated profit;
+
+business opportunity;
+
+goodwill;
+
+indirect revenue;
+
+anticipated savings,
+
+except where expressly agreed or where such exclusion is prohibited by law.
+
+40. LIABILITY EXCEPTIONS
+Any exclusions or caps applicable to the following matters shall be subject to the final negotiated Agreement and applicable law:
+
+fraud;
+
+fraudulent misrepresentation;
+
+wilful misconduct;
+
+death or personal injury where liability cannot lawfully be limited;
+
+intentional breach of confidentiality;
+
+infringement of third-party intellectual property;
+
+material data-protection violations;
+
+other liability that cannot legally be excluded.
+
+The exact treatment of these categories should be reviewed by legal counsel.
+
+41. INTELLECTUAL PROPERTY CLAIMS
+Where specifically agreed, DISTILLOGIC may provide reasonable defence or remediation relating to third-party intellectual-property claims arising directly from original deliverables created by DISTILLOGIC.
+
+Such obligations shall not apply to claims arising from:
+
+Client-provided materials;
+
+Client specifications;
+
+unauthorised modifications;
+
+combination with unsupported third-party systems;
+
+continued use after notice of infringement;
+
+third-party or open-source components.
+
+Detailed IP indemnity provisions may be negotiated depending on engagement risk.
+
+42. CLIENT INDEMNITY
+The Client shall remain responsible for materials, data, instructions and intellectual property it provides to DISTILLOGIC.
+
+The Parties may agree appropriate indemnification where claims arise from Client-supplied materials or unlawful Client instructions.
+
+43. NON-SOLICITATION OF PERSONNEL
+During the term of an applicable engagement and for [12 months] following its conclusion, neither Party should knowingly solicit for direct employment or direct contracting personnel of the other Party who were materially involved in that engagement, except:
+
+through general public recruitment not specifically targeted;
+
+where the individual independently approaches the other Party without solicitation;
+
+where otherwise agreed in writing.
+
+Any direct-hire or conversion arrangement should be commercially agreed between the Parties.
+
+44. DIRECT HIRE / CONVERSION
+Where a Client wishes to directly hire or contract a DISTILLOGIC resource introduced through the engagement, the Parties may agree:
+
+a conversion fee;
+
+recruitment fee;
+
+release fee;
+
+other reasonable commercial arrangement.
+
+Any financial amount should be defined in the applicable SOW, commercial schedule or written agreement and reviewed for enforceability.
+
+45. NON-EXCLUSIVITY
+Unless expressly agreed otherwise, this Agreement is non-exclusive.
+
+DISTILLOGIC may provide services to other clients, including organisations operating in similar industries, provided that it complies with its confidentiality obligations.
+
+The Client may engage other technology suppliers.
+
+46. CONFLICTS OF INTEREST
+DISTILLOGIC shall use reasonable efforts to identify material conflicts of interest affecting an engagement.
+
+Where identified, the Parties shall discuss appropriate mitigation.
+
+47. PUBLICITY
+Neither Party may use the other Party's:
+
+name;
+
+logo;
+
+trademarks;
+
+project information
+
+in public marketing without prior written consent.
+
+DISTILLOGIC shall not represent the Client as a customer reference without appropriate authorisation.
+
+48. AUDIT & RECORDS
+DISTILLOGIC shall maintain appropriate records supporting invoices and Services where required under the applicable SOW.
+
+Any Client audit right shall be:
+
+reasonable;
+
+relevant to the Services;
+
+subject to confidentiality;
+
+conducted during normal business hours;
+
+not unnecessarily disruptive.
+
+Audit rights relating to security, personal data or regulated projects may be separately agreed.
+
+49. INSURANCE
+DISTILLOGIC shall maintain insurance coverage appropriate to its business activities and contractual obligations where commercially required.
+
+Specific insurance limits may be defined in a SOW or Client supplier-onboarding requirements.
+
+No insurance commitment shall be deemed made unless expressly agreed.
+
+50. BUSINESS CONTINUITY
+Where relevant to the Services, DISTILLOGIC shall maintain reasonable business-continuity arrangements appropriate to the nature and scale of the engagement.
+
+Project-specific disaster-recovery or continuity obligations must be expressly defined.
+
+51. FORCE MAJEURE
+Neither Party shall be liable for delay or failure to perform obligations caused by events beyond its reasonable control, including where applicable:
+
+natural disasters;
+
+war;
+
+civil unrest;
+
+widespread infrastructure failure;
+
+government action;
+
+major telecommunications outage;
+
+widespread cyber event;
+
+labour disruption not reasonably controllable.
+
+The affected Party shall notify the other Party and use reasonable efforts to mitigate the impact.
+
+Payment obligations for Services already properly performed shall not normally be excused by force majeure.
+
+52. TERM
+This Agreement shall commence on the Effective Date and continue for:
+
+[INITIAL TERM — e.g. 24 MONTHS]
+unless terminated earlier.
+
+Thereafter, the Agreement may:
+
+automatically renew;
+
+renew by mutual agreement;
+
+continue until terminated,
+
+as selected by the Parties.
+
+53. TERMINATION FOR CONVENIENCE
+Either Party may terminate this Agreement for convenience by providing:
+
+[30 / 60 / 90] days' written notice.
+Termination of the MSA shall not automatically terminate an active SOW unless the applicable SOW or termination notice expressly provides otherwise.
+
+54. TERMINATION FOR CAUSE
+Either Party may terminate this Agreement or an affected SOW where the other Party:
+
+commits a material breach;
+
+fails to remedy a curable material breach after written notice;
+
+becomes insolvent;
+
+ceases material business operations;
+
+repeatedly fails to meet material contractual obligations.
+
+A standard cure period may be:
+
+15–30 days
+unless the breach is incapable of remedy or requires faster action.
+
+55. EFFECT OF TERMINATION
+Upon termination:
+
+The Client shall pay all properly due amounts for:
+
+Services performed;
+
+accepted milestones;
+
+authorised work in progress;
+
+approved expenses;
+
+committed costs where contractually applicable.
+
+Each Party shall return or protect Confidential Information according to its continuing obligations.
+
+56. TRANSITION ASSISTANCE
+Where reasonably requested and commercially agreed, DISTILLOGIC may provide transition assistance following termination or expiry.
+
+Transition assistance may include:
+
+documentation;
+
+knowledge transfer;
+
+source-code transfer;
+
+deployment information;
+
+operational handover.
+
+Additional transition work may be billable unless included in the applicable SOW.
+
+57. COMPLIANCE WITH LAW
+Each Party shall comply with laws applicable to its respective obligations under this Agreement.
+
+Project-specific regulatory obligations must be identified in the applicable SOW.
+
+58. ANTI-BRIBERY & ETHICAL BUSINESS
+Each Party shall comply with applicable anti-bribery and anti-corruption laws.
+
+Neither Party shall knowingly offer, authorise or accept improper payments in connection with this Agreement.
+
+59. EXPORT CONTROLS & SANCTIONS
+The Parties shall comply with applicable export-control and sanctions requirements where relevant to the Services, technologies or jurisdictions involved.
+
+Neither Party shall require the other to knowingly perform an unlawful transaction.
+
+60. INDEPENDENT CONTRACTORS
+The Parties are independent contractors.
+
+Nothing in this Agreement creates:
+
+partnership;
+
+joint venture;
+
+agency;
+
+fiduciary relationship;
+
+employer-employee relationship
+
+between the Parties.
+
+DISTILLOGIC personnel remain under the contractual responsibility of DISTILLOGIC or their applicable employing/contracting entity.
+
+61. ASSIGNMENT
+Neither Party may assign this Agreement without the other Party's prior written consent, such consent not to be unreasonably withheld, except where assignment occurs as part of:
+
+merger;
+
+corporate reorganisation;
+
+sale of substantially all relevant assets;
+
+acquisition.
+
+The successor must assume the relevant contractual obligations.
+
+62. NOTICES
+Formal notices shall be sent to authorised contacts.
+
+DISTILLOGIC
+Legal Entity: [LEGAL ENTITY]
+Attention: Spiros Melas
+Title: Managing Director
+Address: [ADDRESS]
+Email: [LEGAL / COMMERCIAL EMAIL]
+
+CLIENT
+Company: [CLIENT NAME]
+Attention: [NAME]
+Title: [TITLE]
+Address: [ADDRESS]
+Email: [EMAIL]
+
+63. GOVERNING LAW
+Unless otherwise negotiated:
+
+Laws of Greece
+shall govern this Agreement.
+
+64. DISPUTE RESOLUTION
+The Parties shall initially attempt to resolve disputes through good-faith escalation between authorised management representatives.
+
+If a dispute cannot be resolved commercially, either Party may pursue available legal remedies.
+
+The Parties may separately agree to:
+
+mediation;
+
+arbitration;
+
+another dispute-resolution process.
+
+65. JURISDICTION
+Unless otherwise agreed:
+
+Courts of Patras, Greece
+shall have jurisdiction, subject to mandatory legal rules.
+
+66. ELECTRONIC SIGNATURES
+This Agreement and related SOWs may be executed electronically where legally permitted.
+
+Electronic signatures and exchanged signed copies may be treated as originals.
+
+67. COUNTERPARTS
+This Agreement may be executed in counterparts.
+
+All signed counterparts together constitute one agreement.
+
+68. AMENDMENTS
+Any material amendment must be made in writing and agreed by authorised representatives of both Parties.
+
+Project teams do not have authority to amend this Agreement unless expressly authorised.
+
+69. WAIVER
+Failure to enforce a contractual right immediately shall not constitute waiver of that right.
+
+Any waiver must be expressly made in writing.
+
+70. SEVERABILITY
+If any provision is invalid or unenforceable, the remaining provisions shall continue in effect.
+
+The affected provision should be interpreted or modified to the minimum extent necessary to make it valid where legally possible.
+
+71. ENTIRE AGREEMENT
+This Agreement, together with incorporated SOWs and other expressly incorporated documents, constitutes the agreement between the Parties regarding the Services.
+
+It supersedes prior discussions relating to the same subject matter, except where expressly preserved.
+
+72. SURVIVAL
+Provisions intended by their nature to survive termination shall continue, including where applicable:
+
+payment obligations;
+
+confidentiality;
+
+intellectual property;
+
+data protection;
+
+liability;
+
+dispute resolution;
+
+non-solicitation;
+
+accrued rights.
+
+73. AUTHORITY
+Each person signing represents that they have authority to bind the applicable Party.
+
+SIGNATURES
+FOR DISTILLOGIC
+Legal Entity: [FULL LEGAL NAME]
+Trading Name: DISTILLOGIC TECHNOLOGIES
+
+Name: Spiros Melas
+Title: Managing Director
+
+Signature: ______________________________
+
+Date: __________________________________
+
+FOR THE CLIENT
+Legal Entity: [CLIENT LEGAL NAME]
+
+Name: __________________________________
+
+Title: ___________________________________
+
+Signature: ______________________________
+
+Date: __________________________________
+
+SCHEDULE 1 — COMMERCIAL PRINCIPLES
+Applicable pricing, rates and payment arrangements shall be defined in each SOW.
+
+Standard commercial principles may include:
+
+Net 30 payment;
+
+monthly T&M billing;
+
+mobilisation payments for project delivery;
+
+milestone billing;
+
+monthly dedicated-team fees;
+
+approved project expenses;
+
+Change Request pricing.
+
+SCHEDULE 2 — SECURITY REQUIREMENTS
+[PROJECT / CLIENT-SPECIFIC SECURITY REQUIREMENTS WHERE APPLICABLE]
+
+SCHEDULE 3 — DATA PROTECTION
+[REFERENCE TO DPA WHERE REQUIRED]
+
+SCHEDULE 4 — CLIENT SUPPLIER REQUIREMENTS
+[OPTIONAL CLIENT-SPECIFIC PROCUREMENT / COMPLIANCE REQUIREMENTS]
+
+DISTILLOGIC TECHNOLOGIES
+Software Engineering & Technology Delivery
+
+Patras, Greece · European Union
+
+Website: distillogic.gr
+Commercial Contact: [EMAIL]
+Legal Contact: [EMAIL]
+Telephone: [TELEPHONE]
+
+Document Reference: DL-MSA-[NUMBER]
+Version: 1.0
+Classification: Commercial Confidential
+
+Complexity distilled. Technology delivered.
+LEGAL REVIEW NOTICE
+This MSA is a commercial contract template and is not a substitute for transaction-specific legal advice.
+
+Before first execution, DISTILLOGIC should have the template reviewed by qualified legal counsel, particularly the provisions concerning:
+
+limitation of liability;
+
+indemnities;
+
+intellectual property;
+
+direct-hire / non-solicitation;
+
+termination;
+
+data protection;
+
+insurance;
+
+foreign governing law;
+
+regulated or high-risk projects.
+
+Material deviations requested by enterprise clients should also be reviewed before acceptance.
+

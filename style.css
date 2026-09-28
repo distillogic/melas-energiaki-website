@@ -30,3 +30,22 @@ body{font-family:"Segoe UI Variable Text","Aptos",Inter,"Segoe UI",Arial,sans-se
 .hero h1{line-height:.96}.about-copy h2,.section-head h2,.cta-band h2,.contact-copy h2{line-height:1.02}.stat strong{letter-spacing:-.035em}.service-card h3{font-size:1.16rem;line-height:1.22;letter-spacing:-.012em}.eyebrow,.section-kicker,.main-nav,.button{font-family:"Segoe UI Variable Text","Aptos",Inter,"Segoe UI",Arial,sans-serif}.eyebrow,.section-kicker{letter-spacing:.18em}.hero-copy,.about-copy>p,.contact-copy>p,.service-card p{letter-spacing:-.008em}
 
 .social-actions a{display:inline-flex;align-items:center;gap:8px}.social-actions .brand-icon{display:block;width:18px;height:18px;flex:0 0 18px;object-fit:contain;transition:transform .2s}.social-actions .whatsapp-icon{filter:invert(70%) sepia(88%) saturate(1210%) hue-rotate(83deg) brightness(91%) contrast(89%)}.social-actions .viber-icon{filter:invert(42%) sepia(75%) saturate(2037%) hue-rotate(229deg) brightness(99%) contrast(91%)}.social-actions a:hover .brand-icon{transform:scale(1.1)}
+
+/* Persistent back-to-top control */
+.back-top{position:fixed;right:24px;bottom:24px;z-index:120;width:48px;height:48px;border:1px solid rgba(255,255,255,.28);box-shadow:0 12px 30px rgba(7,56,58,.28);backdrop-filter:blur(10px)}
+
+/* More compact mobile rhythm */
+@media(max-width:760px){.topbar-inner{height:36px}.site-header{height:66px}.main-nav{inset:66px 0 auto;padding:14px 24px 20px}.main-nav a{padding:11px 0}.hero{min-height:600px;height:calc(100svh - 102px);max-height:690px}.hero-content{margin-top:0}.hero h1{font-size:clamp(2.35rem,9.5vw,3.55rem);line-height:.98}.hero-copy{margin-top:18px;line-height:1.5}.hero-actions{margin-top:22px}.button{padding:12px 18px}.scroll-cue{bottom:14px;height:44px}.impact .container{margin-top:-22px}.stats-grid{gap:8px;padding:8px}.stat{min-height:116px;padding:21px 22px}.stat span{margin-top:9px}.section-pad{padding:56px 0}.about{padding-top:76px}.about-grid{gap:36px}.about-image img{height:340px}.about-image::before{inset:0 40px 38px 0}.about-copy h2,.section-head h2,.cta-band h2,.contact-copy h2{margin-bottom:.4em;font-size:clamp(2rem,8.7vw,2.8rem)}.check-list{margin-top:20px;gap:9px}.section-head{margin-bottom:34px}.services-grid{gap:13px}.service-card{min-height:355px}.service-card>div{padding:23px}.service-card h3{margin:10px 0 7px}.cta-band{padding:56px 0}.contact-grid{gap:38px}.contact-cards{margin-top:21px}.map-wrap{min-height:340px}.map-wrap iframe{height:320px}.footer-main{min-height:0;padding:28px 0;gap:25px}.back-top{right:16px;bottom:16px;width:44px;height:44px}}
+@media(max-width:430px){.hero{min-height:590px;max-height:650px}.hero-actions{gap:8px}.about-image img{height:300px}.service-card{min-height:340px}.map-wrap{min-height:320px}.map-wrap iframe{height:300px}}
+
+/* Reworked contact composition */
+.cta-inner{display:block}.cta-copy{max-width:900px}.cta-copy>p:last-child{max-width:760px;margin:18px 0 0;color:rgba(7,56,58,.74);font-size:1.02rem}.contact-details{background:#edf3ee}.contact-grid-simple{display:block;max-width:900px}.contact-grid-simple .contact-copy{max-width:none}.contact-grid-simple .contact-cards{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:0}.contact-grid-simple .social-actions{justify-content:center;margin-top:22px}.contact-grid-simple .social-actions a{background:rgba(255,255,255,.58)}
+
+/* Refined back-to-top icon */
+.back-top{font-size:0}.back-top::before{content:"";position:absolute;left:50%;top:50%;width:12px;height:12px;border-top:2.5px solid currentColor;border-left:2.5px solid currentColor;transform:translate(-50%,-35%) rotate(45deg);border-radius:1px}.back-top::after{content:"";position:absolute;left:50%;top:50%;width:2.5px;height:16px;border-radius:2px;background:currentColor;transform:translate(-50%,-25%)}
+
+@media(max-width:760px){.cta-copy>p:last-child{margin-top:13px;font-size:.92rem}.contact-details{padding:42px 0}.contact-grid-simple .contact-cards{grid-template-columns:1fr;gap:10px}.contact-grid-simple .social-actions{margin-top:16px}}
+
+/* Simplified footer and tighter mobile image transition */
+.footer-main{grid-template-columns:1fr;min-height:130px;text-align:center}.footer-main p{max-width:620px;margin:0 auto}
+@media(max-width:760px){.about{padding-top:14px}.about-image{margin-top:0}.footer-main{display:block;min-height:0;padding:24px 0}.footer-main p{grid-column:auto;grid-row:auto}}

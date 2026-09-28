@@ -1,0 +1,11 @@
+.academy-reference-bar{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap;margin:0 0 20px}
+.academy-reference-bar a{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line,#ced9e2);border-radius:12px;padding:10px 16px;color:var(--ink,#19374a);background:var(--surface,#fff);text-decoration:none;font-weight:700;font-size:14px}
+.academy-reference-bar a:hover,.academy-reference-bar a:focus-visible{outline:2px solid #207b9b;outline-offset:3px}
+.academy-reference-bar small{color:var(--ink-secondary,#536776);font-size:12px}
+.handbook-intro{max-width:940px;margin-inline:auto}
+.handbook-actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
+.enterprise-topic{margin:0 0 22px;padding:0 0 18px;border-bottom:1px solid var(--ac-border,#dce4ea)}
+.ac-theory .enterprise-topic h3{font-size:16px;line-height:1.5;margin:0 0 7px;overflow-wrap:anywhere;text-transform:none}
+.ac-theory .enterprise-topic p{margin:0;line-height:1.9;white-space:normal;overflow-wrap:anywhere}
+.enterprise-update-note{border-left:3px solid #207b9b;padding:12px 18px;margin:16px 0;line-height:1.75;background:var(--surface,#fff)}
+@media(max-width:600px){.academy-reference-bar{justify-content:flex-start}.academy-reference-bar a{width:100%;justify-content:center}.handbook-actions{flex-direction:column}.handbook-actions a{text-align:center}.ac-theory .enterprise-topic h3{font-size:15px}}
