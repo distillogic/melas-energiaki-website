@@ -1,0 +1,3 @@
+<?php
+declare(strict_types=1);
+require __DIR__.'/bootstrap.php';$user=require_login();ensure_customer_workspace_schema();if(!in_array($user['role'],['admin','manager'],true)){http_response_code(403);exit('Η πρόσβαση επιτρέπεται μόνο στη διοίκηση.');}$id=trim((string)($_GET['id']??''));$s=db()->prepare('SELECT * FROM engineering_profiles WHERE id=? LIMIT 1');$s->execute([$id]);$profile=$s->fetch();if(!$profile){http_response_code(404);exit('Το profile δεν βρέθηκε.');}$name=preg_replace('/[^A-Za-z0-9._-]/','-',(string)$profile['profile_id']).'.doc';header('Content-Type: application/msword; charset=UTF-8');header('Content-Disposition: attachment; filename="'.$name.'"');echo$profile['content'];

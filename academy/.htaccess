@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "^(config(\.example)?\.php|bootstrap\.php|database\.php|roles\.php|schema\.php|content\.php|manual-content\.php|assessment-workflow\.php|courses\.php|accounts-workflow\.php|sso-workflow\.php|README\.md|\.gitignore)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(zip|sql|log|bak|ini)$">
+  Require all denied
+</FilesMatch>

@@ -1,0 +1,65 @@
+PAPADOPOULOS — ONE-CLICK ACCOUNT UPDATE v21
+
+Username: papadopoulos@distillogic.gr
+Password: the exact password you supplied has been prepared as a bcrypt hash.
+No plaintext password is included. Treat this ZIP as private nevertheless.
+
+1. Back up your application files and databases first.
+
+2. Upload and extract THIS SAME ZIP directly inside EACH Plesk folder:
+   - company-website/crm
+   - melasenergiaki.gr/crm
+   - melasenergiaki.gr/academy
+
+   It adds only activate-papadopoulos.php, papadopoulos-access-preset.php,
+   and this uniquely named instructions file. No enclosing crm/academy folder.
+   It does not replace config.php, bootstrap.php or other existing app files.
+
+3. Sign in as Sophianos or Melas in each application. Open:
+   https://distillogic.gr/crm/activate-papadopoulos.php
+   https://melasenergiaki.gr/crm/activate-papadopoulos.php
+   https://melasenergiaki.gr/academy/activate-papadopoulos.php
+
+4. On EACH page click: Ενεργοποίηση Παπαδόπουλου
+   No new password, setup token, database value or signature is required here.
+   The page will confirm creation in that application only.
+
+5. Test login with his supplied email/password in all three applications.
+   Then remove the uploaded ZIP and these three add-on files from each folder.
+   This does not remove the accounts or their audit history. Keep your local ZIP
+   private; do not add it or its password-hash file to a public repository.
+
+WHAT THIS GRANTS
+- Both CRMs: employee (ordinary user), no account administration or CEO approval.
+- Melas CRM: no global sales financials or lead approvals; existing own-lead and
+  own-commission restrictions remain in effect.
+- Academy: learner, personal courses/progress/assessment only, no staff directory,
+  team results, grading or administration.
+- The CRM paperwork exemption is specific to this new account and is audited.
+  It does not create false signatures or mark contracts as signed. Other users'
+  onboarding requirements remain unchanged.
+
+IMPORTANT
+- Uploading a ZIP alone does not write database accounts. The authenticated
+  activation button is required once per application.
+- This is ONLY AN ACCOUNT UPDATE, not a complete CRM/Academy installation.
+  If Academy is not installed yet, first upload the previously supplied complete
+  Melas-Sales-Academy-FULL-v20b.zip and complete its config/setup. Its eight tables
+  can share the existing Melas database. Do not delete any existing CRM tables.
+- Use HTTPS with a valid certificate. If Melas reports a certificate error, fix
+  its SSL certificate in Plesk first. Do not bypass the warning or use HTTP.
+- Existing same-email accounts are NOT overwritten, reset or silently reactivated.
+  If the page reports an existing account, send that message for review.
+- A permanent per-application marker prevents this installer from recreating a
+  later-disabled, renamed or deleted user. Do not remove the marker to rerun it.
+- Academy local login must already be enabled for this direct-password account.
+  If Academy is deliberately SSO-only, this installer refuses to weaken that
+  setting; the user can instead sign in through the configured Distillogic SSO.
+- A newly created local Academy profile can later be linked by its owner using
+  Profile > Link corporate account. SSO never silently merges by matching email.
+- The passwords are initially identical but changes do not automatically sync
+  across the independent accounts. Offboarding must disable all three accounts.
+- No configuration secrets, administrator credentials or business data are in
+  this ZIP. No account has been created on your live server by preparing it.
+
+The updated one-click add-on supersedes the earlier manual v20 account installer.

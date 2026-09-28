@@ -1,0 +1,6 @@
+/* CRM only. System font stack: no third-party requests or font downloads. */
+:root,body{font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif}
+button,input,select,textarea{font-family:inherit}
+body{letter-spacing:0}
+h1,h2,h3,.page-heading h1,.studio-heading h1{letter-spacing:-.025em}
+.sidebar nav a,.nav-group-label{letter-spacing:0}

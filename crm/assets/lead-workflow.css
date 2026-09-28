@@ -1,0 +1,5 @@
+.qualification-checklist{display:grid;gap:10px;margin:0;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--canvas)}
+.qualification-checklist legend{padding:0 7px;font-size:13px;font-weight:800;color:var(--ink)}
+.qualification-checklist label{display:grid;grid-template-columns:18px 1fr;align-items:start;gap:9px;font-weight:600;line-height:1.45}
+.qualification-checklist input{margin-top:3px}
+.qualification-checklist p{margin:4px 0 0;color:var(--ink-secondary);font-size:11px}

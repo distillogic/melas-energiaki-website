@@ -1,0 +1,18 @@
+<?php
+declare(strict_types=1);
+if (!defined('CRM_ROOT') || !isset($protectedLead,$user)) { http_response_code(403); exit; }
+$released=!empty($protectedLead['contacts_released_at']);
+?>
+<section class="card lead-protection-banner">
+ <span class="eyebrow">Κατοχύρωση συνεργάτη</span>
+ <h2><?= e($protectedLead['submitter_name']) ?> · <?= e($protectedLead['lead_reference']) ?></h2>
+ <p>Ο καταχωρητής είναι ο σταθερός ιδιοκτήτης και δικαιούχος του lead από <?= e(format_datetime($protectedLead['created_at'])) ?>. Η αξιολόγηση δεν μεταφέρει την ιδιοκτησία.</p>
+ <ol class="lead-protection-flow"><li>1. Κατοχύρωση</li><li>2. Ανώνυμη αξιολόγηση</li><li class="<?= $released?'is-complete':'' ?>">3. Αποδοχή αμοιβής</li><li class="<?= $released?'is-complete':'' ?>">4. Αποκάλυψη και συνεργασία</li></ol>
+ <?php if($released): ?><p><strong>Αποδοχή / αποκάλυψη:</strong> <?= e(format_datetime($protectedLead['contacts_released_at'])) ?>. Η καταχωρισμένη αμοιβή διατηρείται ακόμη κι αν η ευκαιρία κλείσει ως Lost. Το πραγματικό ποσό εμφανίζεται στις προμήθειες· οι ιστορικές πληρωμές δεν αλλάζουν. Η αποδοχή δεν σημαίνει ότι έγινε ήδη η πληρωμή του συνεργάτη.</p>
+ <?php else: ?><p><strong>Τα στοιχεία παραμένουν ιδιωτικά στον καταχωρητή.</strong> Επωνυμία, όνομα, τηλέφωνο, email, website, ακριβής τοποθεσία, ελεύθερα κείμενα και συνημμένα αποκαλύπτονται στην αξιολόγηση μόνο μαζί με την αποδοχή της αμοιβής €80.</p><?php endif; ?>
+ <?php if(!$identityVisible): ?><p>Εξετάστε ποσότητα, Watt, ζητούμενες τιμές, γενική περιφέρεια και κατηγορία υπηρεσίας. Ζητήστε διευκρινίσεις από τον συνεργάτη πριν αποδεχθείτε την ευκαιρία. Η αποδοχή βασίζεται σε αυτή την αξιολόγηση και αποτελεί ρητή δέσμευση για τα €80.</p><?php $missing=lead_submission_errors($protectedLead,json_decode($protectedLead['opportunity_data_json'],true)?:[],(string)$protectedLead['opportunity_type']); ?><p><strong>Πληρότητα υποβολής:</strong> <?= $missing?e(implode(' ',$missing)):'Τα απαιτούμενα στοιχεία έχουν συμπληρωθεί. Η ουσιαστική αξιολόγηση παραμένει δική σας.' ?></p><?php endif; ?>
+ <?php if($protectionEvents): ?><details><summary>Ιστορικό κατοχύρωσης και αποφάσεων (<?= count($protectionEvents) ?>)</summary><div class="lead-history">
+ <?php foreach($protectionEvents as $entry): ?><div><strong><?= e(['registered'=>'Αρχική κατοχύρωση','owner_updated'=>'Συμπλήρωση συνεργάτη','accepted_and_released'=>'Αποδοχή και αποκάλυψη','review_decision'=>'Απόφαση αξιολόγησης','partner_message'=>'Μήνυμα συνεργάτη','review_message'=>'Μήνυμα αξιολογητή','commission_paid'=>'Πληρωμή συνεργάτη'][$entry['event_type']]??$entry['event_type']) ?></strong><span><?= e($entry['actor_name']) ?> · <?= e(format_datetime($entry['created_at'])) ?></span><?php if($identityVisible || in_array($entry['event_type'],['review_decision','review_message'],true)): ?><p><?= nl2br(e($entry['note'])) ?></p><?php else: ?><p>Το περιεχόμενο του συνεργάτη παραμένει ιδιωτικό μέχρι την αποδοχή.</p><?php endif; ?></div><?php endforeach; ?>
+ </div></details><?php endif; ?>
+ <form method="post" class="stack protection-note-form"><?= csrf_field() ?><input type="hidden" name="action" value="append_note"><label>Προσθήκη σημείωσης / διαφωνίας<textarea name="protection_note" minlength="10" maxlength="3000" required rows="2"></textarea></label><small><?= !$released&&lead_is_owner($user,$protectedLead)?'Η δική σας σημείωση παραμένει ιδιωτική έως την αποδοχή. Για συμπλήρωση του ανώνυμου δελτίου χρησιμοποιήστε την Επεξεργασία.':'Η σημείωση θα είναι ορατή στον δικαιούχο και στους εξουσιοδοτημένους αξιολογητές.' ?></small><button class="button" type="submit">Προσθήκη στο ιστορικό</button></form>
+</section>

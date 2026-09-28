@@ -1,0 +1,12 @@
+/* Root-level update avoids replacing existing Plesk assets-directory files. */
+.portal-tabs{display:flex;gap:8px;overflow-x:auto;max-width:100%;padding:4px 0 12px;margin-bottom:18px;scrollbar-width:thin;scrollbar-color:#607591 transparent}
+.portal-tabs>.button{flex:0 0 auto;width:auto!important;white-space:nowrap;min-height:40px;font-size:12px}
+.portal-tabs+.card{margin-top:0}.page>.card.form-section{margin-bottom:18px}
+/* Native, keyboard-accessible scrolling; no white track or arrow buttons. */
+.sidebar nav{scrollbar-width:thin;scrollbar-color:#607591 transparent;scrollbar-gutter:stable;overscroll-behavior:contain}
+.sidebar nav::-webkit-scrollbar{width:5px;height:5px}
+.sidebar nav::-webkit-scrollbar-track{background:transparent}
+.sidebar nav::-webkit-scrollbar-thumb{background:#607591;border-radius:999px}
+.sidebar nav::-webkit-scrollbar-thumb:hover{background:#90abc9}
+.sidebar nav::-webkit-scrollbar-button{display:none;width:0;height:0}
+@media(forced-colors:active){.sidebar nav{scrollbar-color:auto}}

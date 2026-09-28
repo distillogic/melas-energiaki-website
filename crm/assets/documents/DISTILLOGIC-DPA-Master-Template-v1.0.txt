@@ -1,0 +1,1099 @@
+DISTILLOGIC TECHNOLOGIES
+DATA PROCESSING AGREEMENT
+GDPR / Personal Data Processing
+Agreement Reference: DL-DPA-[NUMBER]
+Version: 1.0
+Effective Date: [DATE]
+Classification: Commercial Confidential
+
+1. PARTIES
+This Data Processing Agreement (the “DPA”) is entered into between:
+
+[FULL LEGAL COMPANY NAME], trading as DISTILLOGIC TECHNOLOGIES, having its registered office at [ADDRESS], Patras, Greece, VAT / Tax Identification Number [VAT NUMBER], GEMI / Registration Number [GEMI NUMBER],
+
+hereinafter referred to as “DISTILLOGIC” or the “Processor”,
+
+and
+
+[CLIENT FULL LEGAL NAME], having its registered office at [ADDRESS], registration / VAT number [NUMBER],
+
+hereinafter referred to as the “Client” or the “Controller.”
+
+DISTILLOGIC and the Client may each be referred to as a “Party” and together as the “Parties.”
+
+2. PURPOSE
+This DPA governs the Processing of Personal Data by DISTILLOGIC on behalf of the Client in connection with services provided under:
+
+the Master Services Agreement;
+
+applicable Statements of Work;
+
+Purchase Orders;
+
+Call-Off Orders;
+
+Commercial Proposals;
+
+or other agreed service arrangements.
+
+This DPA forms part of the Parties' contractual framework.
+
+3. ROLE OF THE PARTIES
+For Personal Data Processed by DISTILLOGIC on behalf of the Client under this DPA:
+
+Client
+acts as the:
+
+Controller
+and determines the purposes and means of Processing.
+
+DISTILLOGIC
+acts as the:
+
+Processor
+and Processes Personal Data only on documented instructions from the Client, except where otherwise required by applicable law.
+
+If the Parties act in different roles for a particular Processing activity, those roles shall be documented separately.
+
+4. DEFINITIONS
+For purposes of this DPA:
+
+“Personal Data”
+means any information relating to an identified or identifiable natural person.
+
+“Processing”
+means any operation performed on Personal Data, including:
+
+collection;
+
+recording;
+
+organisation;
+
+storage;
+
+alteration;
+
+retrieval;
+
+consultation;
+
+use;
+
+transmission;
+
+disclosure;
+
+restriction;
+
+deletion;
+
+destruction.
+
+“Data Subject”
+means the natural person to whom Personal Data relates.
+
+“Controller”
+means the entity determining the purposes and means of Processing.
+
+“Processor”
+means the entity Processing Personal Data on behalf of the Controller.
+
+“Subprocessor”
+means a third party engaged by DISTILLOGIC to Process Personal Data on behalf of the Client.
+
+“Personal Data Breach”
+means a breach of security leading to accidental or unlawful:
+
+destruction;
+
+loss;
+
+alteration;
+
+unauthorised disclosure of;
+
+or access to Personal Data.
+
+“Applicable Data Protection Law”
+includes Regulation (EU) 2016/679 (GDPR) and other applicable data-protection legislation.
+
+5. SUBJECT MATTER OF PROCESSING
+The subject matter of Processing is the provision of:
+
+[DESCRIPTION OF SOFTWARE / SERVICE / PROJECT]
+
+by DISTILLOGIC to the Client.
+
+The specific Processing activities are described in:
+
+Annex 1 — Processing Details
+6. DURATION OF PROCESSING
+Processing shall continue for the duration of the applicable Services unless:
+
+Personal Data is deleted earlier;
+
+the Client instructs otherwise;
+
+applicable law requires continued retention.
+
+Processing shall cease when the relevant Services terminate, subject to lawful retention requirements.
+
+7. NATURE AND PURPOSE OF PROCESSING
+DISTILLOGIC may Process Personal Data only to the extent necessary to perform the agreed Services.
+
+Processing may include, where applicable:
+
+application hosting;
+
+software development;
+
+application maintenance;
+
+troubleshooting;
+
+technical support;
+
+database administration;
+
+data migration;
+
+systems integration;
+
+testing;
+
+monitoring;
+
+analytics;
+
+backup and recovery;
+
+cloud operations;
+
+security monitoring;
+
+user-support activities.
+
+The actual nature and purpose of Processing shall be specified in Annex 1.
+
+8. DOCUMENTED INSTRUCTIONS
+DISTILLOGIC shall Process Personal Data only:
+
+on documented instructions from the Client; or
+
+where required by applicable law.
+
+Documented instructions may be contained in:
+
+this DPA;
+
+the MSA;
+
+a SOW;
+
+a Purchase Order;
+
+technical documentation;
+
+written project instructions;
+
+authorised Client communications.
+
+DISTILLOGIC shall not intentionally Process Personal Data for unrelated commercial purposes.
+
+9. UNLAWFUL INSTRUCTIONS
+If DISTILLOGIC reasonably believes that a Client instruction infringes Applicable Data Protection Law, DISTILLOGIC shall inform the Client without undue delay.
+
+DISTILLOGIC may suspend execution of the affected instruction while the Parties clarify the applicable legal requirements where reasonably necessary.
+
+10. CONTROLLER RESPONSIBILITIES
+The Client is responsible for:
+
+establishing an appropriate lawful basis for Processing;
+
+providing required privacy information to Data Subjects;
+
+ensuring that its instructions are lawful;
+
+ensuring that Personal Data supplied to DISTILLOGIC may lawfully be Processed;
+
+defining appropriate retention periods;
+
+responding to regulatory obligations applicable to it as Controller;
+
+ensuring that Processing is proportionate to the intended purpose.
+
+DISTILLOGIC does not determine the Client's lawful basis merely by providing technical Services.
+
+11. CONFIDENTIALITY OF PERSONNEL
+DISTILLOGIC shall ensure that persons authorised to Process Personal Data:
+
+are subject to appropriate confidentiality obligations;
+
+receive access only where necessary;
+
+are informed of applicable data-protection and security responsibilities.
+
+Access shall be limited according to role and operational necessity.
+
+12. ACCESS CONTROL
+DISTILLOGIC shall use appropriate access-control mechanisms for systems under its responsibility.
+
+Measures may include:
+
+unique user accounts;
+
+role-based access;
+
+least-privilege principles;
+
+multi-factor authentication where appropriate;
+
+privileged-access restrictions;
+
+access revocation;
+
+periodic access review.
+
+Specific Client security requirements may be documented separately.
+
+13. SECURITY OF PROCESSING
+DISTILLOGIC shall implement appropriate technical and organisational measures proportionate to:
+
+the nature of the Processing;
+
+the sensitivity of Personal Data;
+
+the risk to Data Subjects;
+
+available technology;
+
+implementation cost;
+
+contractual requirements.
+
+Measures may include those identified in:
+
+Annex 2 — Technical and Organisational Measures
+14. TECHNICAL AND ORGANISATIONAL MEASURES
+Measures may include, where applicable:
+
+Identity & Access Management
+role-based permissions;
+
+least privilege;
+
+strong authentication;
+
+access reviews.
+
+Encryption
+encryption in transit;
+
+encryption at rest where appropriate;
+
+secure key management.
+
+Secure Development
+source control;
+
+code review;
+
+dependency management;
+
+secure coding practices;
+
+vulnerability remediation.
+
+Infrastructure Security
+system hardening;
+
+network controls;
+
+environment separation;
+
+firewall controls;
+
+secrets management.
+
+Monitoring
+logging;
+
+monitoring;
+
+security alerts;
+
+audit trails where appropriate.
+
+Resilience
+backups;
+
+disaster recovery;
+
+restoration procedures;
+
+availability controls.
+
+Organisational Measures
+confidentiality obligations;
+
+security policies;
+
+access procedures;
+
+personnel awareness;
+
+incident-response procedures.
+
+The exact controls depend on the Services and Client requirements.
+
+15. DATA MINIMISATION
+DISTILLOGIC shall Process only Personal Data reasonably necessary for the agreed Services and documented instructions.
+
+Where feasible, the Parties should avoid using unnecessary production Personal Data for:
+
+development;
+
+testing;
+
+training;
+
+demonstrations.
+
+Where appropriate, anonymised, pseudonymised or synthetic data should be considered.
+
+16. PRODUCTION DATA IN DEVELOPMENT AND TESTING
+Production Personal Data shall not be copied into development or test environments unless:
+
+reasonably necessary;
+
+authorised by the Client;
+
+appropriately protected.
+
+Where feasible, masking, pseudonymisation or other safeguards should be used.
+
+17. SUBPROCESSORS
+The Client authorises DISTILLOGIC to engage Subprocessors subject to the requirements of this DPA.
+
+DISTILLOGIC shall ensure that each Subprocessor with access to Personal Data is bound by contractual data-protection obligations substantially equivalent to those applicable to DISTILLOGIC.
+
+DISTILLOGIC remains responsible for its Subprocessors to the extent required by Applicable Data Protection Law.
+
+18. SUBPROCESSOR LIST
+Approved or relevant Subprocessors shall be identified in:
+
+Annex 3 — Subprocessor Register
+The register may include:
+
+provider;
+
+service;
+
+Processing purpose;
+
+Processing location;
+
+transfer mechanism where applicable.
+
+19. CHANGES TO SUBPROCESSORS
+DISTILLOGIC shall provide reasonable notice before materially adding or replacing a Subprocessor that will Process Client Personal Data.
+
+The Client may raise a reasonable data-protection objection within:
+
+[10–15] business days
+of receiving notice.
+
+The Parties shall work in good faith to address a valid objection.
+
+If no commercially reasonable alternative is available, the Parties may agree appropriate modifications to the affected Services.
+
+20. DATA SUBJECT REQUESTS
+Where DISTILLOGIC receives a request directly from a Data Subject concerning Personal Data Processed on behalf of the Client, DISTILLOGIC shall:
+
+not respond substantively unless authorised or legally required;
+
+notify the Client where appropriate;
+
+provide reasonable assistance to enable the Client to respond.
+
+Such requests may include:
+
+access;
+
+correction;
+
+deletion;
+
+restriction;
+
+portability;
+
+objection.
+
+21. ASSISTANCE WITH DATA SUBJECT RIGHTS
+Taking into account the nature of Processing, DISTILLOGIC shall provide reasonable technical and organisational assistance to the Client in fulfilling applicable Data Subject rights.
+
+Where assistance requires material work outside the agreed Services, the Parties may agree reasonable additional commercial terms.
+
+22. PERSONAL DATA BREACH
+DISTILLOGIC shall notify the Client without undue delay after becoming aware of a confirmed Personal Data Breach affecting Personal Data Processed under this DPA.
+
+DISTILLOGIC shall provide information reasonably available concerning:
+
+nature of the incident;
+
+affected systems;
+
+categories of Personal Data;
+
+categories of affected Data Subjects;
+
+likely consequences;
+
+containment measures;
+
+mitigation actions.
+
+Information may be provided in phases where it is not immediately available.
+
+23. BREACH INVESTIGATION
+Following a Personal Data Breach, DISTILLOGIC shall:
+
+take reasonable steps to contain the incident;
+
+investigate the cause;
+
+mitigate reasonably foreseeable harm;
+
+preserve appropriate incident records;
+
+cooperate reasonably with the Client.
+
+DISTILLOGIC shall not make public statements identifying the Client without authorisation unless legally required.
+
+24. REGULATORY NOTIFICATION
+The Client, as Controller, remains responsible for determining whether notification must be made to:
+
+a supervisory authority;
+
+affected Data Subjects;
+
+another regulator.
+
+DISTILLOGIC shall provide reasonable assistance with information available to it.
+
+25. DATA PROTECTION IMPACT ASSESSMENTS
+Where reasonably required by the nature of the Processing, DISTILLOGIC shall provide information and assistance reasonably necessary for the Client to conduct:
+
+Data Protection Impact Assessments;
+
+prior consultations with supervisory authorities.
+
+Such assistance shall be proportionate to DISTILLOGIC's role and knowledge of the Processing.
+
+26. RECORDS OF PROCESSING
+DISTILLOGIC shall maintain records required of processors under Applicable Data Protection Law.
+
+Such records may include:
+
+Client identity;
+
+categories of Processing;
+
+international transfers;
+
+general security measures.
+
+27. COMPLIANCE INFORMATION
+DISTILLOGIC shall make available information reasonably necessary to demonstrate compliance with its processor obligations under this DPA.
+
+This may include, where appropriate:
+
+policies;
+
+security summaries;
+
+certifications;
+
+audit reports;
+
+architecture information;
+
+Subprocessor information.
+
+Confidential or security-sensitive information may be provided under appropriate restrictions.
+
+28. AUDIT RIGHTS
+The Client may conduct or commission a reasonable audit where necessary to verify compliance with this DPA.
+
+Audits shall normally:
+
+be conducted during normal business hours;
+
+be subject to reasonable prior notice;
+
+avoid unnecessary disruption;
+
+be limited to systems and information relevant to the Client;
+
+be subject to confidentiality requirements.
+
+Where an independent audit report or certification reasonably satisfies the Client's requirements, the Parties should consider using such evidence before requiring an onsite audit.
+
+29. AUDIT COSTS
+Each Party shall normally bear its own internal costs relating to routine compliance activity.
+
+Where the Client requests an exceptional, extensive or repeated audit not arising from a material DISTILLOGIC breach, reasonable additional assistance may be chargeable subject to prior agreement.
+
+30. INTERNATIONAL DATA TRANSFERS
+DISTILLOGIC shall not transfer Personal Data outside the European Economic Area where such transfer requires a legal transfer mechanism unless an appropriate safeguard or lawful mechanism is in place.
+
+Such mechanisms may include:
+
+adequacy decision;
+
+applicable Standard Contractual Clauses;
+
+Binding Corporate Rules;
+
+other legally recognised transfer mechanisms.
+
+31. STANDARD CONTRACTUAL CLAUSES
+Where required for an international transfer, the Parties shall incorporate or enter into the applicable European Commission Standard Contractual Clauses.
+
+Where DISTILLOGIC acts as Processor and transfers Personal Data to a Subprocessor outside the EEA, the appropriate transfer mechanism shall be implemented where required.
+
+32. TRANSFER ASSESSMENT
+Where Applicable Data Protection Law requires additional assessment of an international transfer, the Parties shall cooperate reasonably concerning:
+
+destination country;
+
+nature of transferred data;
+
+applicable legal safeguards;
+
+technical supplementary measures;
+
+contractual safeguards.
+
+33. GOVERNMENT ACCESS REQUESTS
+Where DISTILLOGIC receives a legally binding government or law-enforcement request for Client Personal Data, DISTILLOGIC shall, to the extent legally permitted:
+
+notify the Client;
+
+review the legal validity of the request;
+
+limit disclosure to what is legally required;
+
+seek appropriate confidentiality where reasonably available.
+
+DISTILLOGIC shall not voluntarily provide Client Personal Data to public authorities except where authorised or legally required.
+
+34. DATA LOCATION
+The primary Processing locations shall be identified in Annex 1 and/or Annex 3.
+
+The Client may specify contractual data-location requirements in the applicable SOW where such requirements are necessary for:
+
+regulatory;
+
+security;
+
+procurement;
+
+contractual reasons.
+
+No general representation that all data remains in Greece shall apply unless expressly agreed.
+
+35. DATA RETENTION
+Personal Data shall be retained only for as long as reasonably necessary to perform the Services or comply with legal obligations.
+
+Retention periods may be defined by:
+
+Client instruction;
+
+system configuration;
+
+SOW;
+
+applicable legal requirements.
+
+36. RETURN OR DELETION
+Upon termination of the relevant Services, the Client may instruct DISTILLOGIC to:
+
+return Personal Data;
+
+delete Personal Data;
+
+or both,
+
+unless continued retention is required by applicable law.
+
+37. BACKUPS
+Personal Data may temporarily remain within standard backup or disaster-recovery systems after deletion from active systems.
+
+Where immediate deletion from backup systems is technically impractical:
+
+data shall remain protected;
+
+access shall remain restricted;
+
+data shall not be restored for ordinary use;
+
+deletion shall occur through normal backup lifecycle processes.
+
+38. SECURE DELETION
+Where applicable and technically feasible, deletion shall use methods appropriate to:
+
+the storage medium;
+
+data sensitivity;
+
+technical environment.
+
+39. CONFIDENTIAL INFORMATION
+Personal Data Processed under this DPA shall also be treated as Confidential Information under the applicable NDA and/or MSA.
+
+Where data-protection requirements impose stricter obligations, those stricter requirements shall apply.
+
+40. CLIENT SECURITY INSTRUCTIONS
+The Client may establish reasonable project-specific security requirements.
+
+Such requirements should be:
+
+documented;
+
+technically feasible;
+
+proportionate;
+
+agreed before implementation where they create additional cost or delivery impact.
+
+Material new security requirements may require a Change Request.
+
+41. SECURITY TESTING
+Where included in the Services, security-related testing may include:
+
+dependency scanning;
+
+static code analysis;
+
+authentication testing;
+
+authorisation testing;
+
+secure configuration review;
+
+vulnerability assessment.
+
+Formal penetration testing or regulated security certification is included only where expressly stated in the applicable SOW.
+
+42. SECURITY INCIDENT COOPERATION
+The Parties shall maintain appropriate escalation contacts for material security incidents.
+
+DISTILLOGIC Security Contact
+Name / Role: [CONTACT]
+Email: [EMAIL]
+Telephone: [NUMBER]
+
+Client Security / Privacy Contact
+Name / Role: [CONTACT]
+Email: [EMAIL]
+Telephone: [NUMBER]
+
+43. PRIVACY CONTACT
+DISTILLOGIC
+Privacy Contact: [NAME / ROLE]
+Email: [PRIVACY EMAIL]
+
+CLIENT
+Privacy / DPO Contact: [NAME / ROLE]
+Email: [EMAIL]
+
+Where a Party has formally appointed a Data Protection Officer, the applicable DPO contact may be included.
+
+44. LIABILITY
+Liability arising under this DPA shall be governed by the applicable liability provisions of the Master Services Agreement, subject to:
+
+mandatory Applicable Data Protection Law;
+
+any specific liability arrangement expressly agreed for data-protection obligations.
+
+Nothing in this DPA limits liability where such limitation is prohibited by law.
+
+45. TERM
+This DPA shall remain in effect for as long as DISTILLOGIC Processes Personal Data on behalf of the Client.
+
+Applicable obligations shall survive termination for as long as DISTILLOGIC retains Personal Data subject to this DPA.
+
+46. TERMINATION
+Termination of the MSA or applicable SOW shall not terminate continuing obligations concerning:
+
+confidentiality;
+
+deletion;
+
+return;
+
+security;
+
+regulatory cooperation;
+
+retained Personal Data.
+
+47. CONFLICT WITH OTHER AGREEMENTS
+In relation specifically to Personal Data Processing obligations, this DPA shall prevail over conflicting general provisions of the MSA or SOW unless:
+
+the other provision provides greater protection; or
+
+the Parties expressly agree otherwise in compliance with applicable law.
+
+48. CHANGES IN LAW
+If Applicable Data Protection Law materially changes, the Parties shall cooperate in good faith to make amendments reasonably required for continued lawful Processing.
+
+49. GOVERNING LAW
+Unless otherwise agreed in the MSA:
+
+Laws of Greece
+shall govern this DPA, subject to mandatory provisions of Applicable Data Protection Law.
+
+50. JURISDICTION
+Unless otherwise agreed in the MSA:
+
+Courts of Patras, Greece
+shall have jurisdiction, subject to applicable mandatory legal requirements.
+
+51. ELECTRONIC SIGNATURES
+This DPA may be executed electronically where legally permitted.
+
+Signed electronic counterparts may be treated as originals.
+
+52. ENTIRE DATA PROCESSING AGREEMENT
+This DPA, together with its Annexes and any incorporated transfer clauses, constitutes the Parties' agreement regarding the Processing governed by this DPA.
+
+SIGNATURES
+FOR DISTILLOGIC
+Legal Entity: [FULL LEGAL NAME]
+Trading Name: DISTILLOGIC TECHNOLOGIES
+
+Name: Spiros Melas
+Title: Managing Director
+
+Signature: ______________________________
+
+Date: __________________________________
+
+FOR THE CLIENT
+Legal Entity: [CLIENT LEGAL NAME]
+
+Name: __________________________________
+
+Title: ___________________________________
+
+Signature: ______________________________
+
+Date: __________________________________
+
+ANNEX 1 — PROCESSING DETAILS
+A. Subject Matter
+[DESCRIPTION OF SERVICE / PROJECT]
+
+B. Duration
+[PROJECT / CONTRACT DURATION]
+
+C. Nature of Processing
+Select / describe as applicable:
+
+Collection
+
+Storage
+
+Hosting
+
+Access
+
+Consultation
+
+Modification
+
+Transmission
+
+Integration
+
+Testing
+
+Support
+
+Backup
+
+Deletion
+
+Other: [DETAIL]
+
+D. Purpose of Processing
+[DESCRIPTION]
+
+Example:
+
+Processing necessary to host, maintain, support and develop the Client's software application and provide related technical services.
+
+E. Categories of Data Subjects
+May include:
+
+Client customers
+
+Client employees
+
+Client contractors
+
+platform users
+
+website users
+
+suppliers
+
+business contacts
+
+other: [DETAIL]
+
+Only applicable categories should remain.
+
+F. Categories of Personal Data
+May include:
+
+Identity Data
+name;
+
+username;
+
+internal identifier.
+
+Contact Data
+email;
+
+telephone number;
+
+business address.
+
+Account Data
+user ID;
+
+role;
+
+permissions.
+
+Technical Data
+IP address;
+
+device information;
+
+logs;
+
+session identifiers.
+
+Business Data
+job title;
+
+company;
+
+business activity information.
+
+Other
+[DETAIL]
+
+Only Personal Data actually required by the project should be listed.
+
+G. Special Categories of Personal Data
+Select:
+
+None expected
+or
+
+[DESCRIPTION OF SPECIAL CATEGORY DATA]
+
+Special-category Personal Data should not be Processed unless specifically required, documented and appropriately protected.
+
+H. Processing Frequency
+[CONTINUOUS / DAILY / PERIODIC / AD HOC]
+
+I. Retention Period
+[RETENTION PERIOD / CLIENT INSTRUCTION]
+
+J. Processing Locations
+Primary location(s):
+
+[EU/EEA COUNTRY]
+
+[CLOUD REGION]
+
+[OTHER]
+
+ANNEX 2 — TECHNICAL & ORGANISATIONAL MEASURES
+Applicable measures may include:
+
+Access Security
+unique accounts;
+
+role-based access;
+
+least privilege;
+
+MFA where appropriate;
+
+access revocation.
+
+Data Security
+encryption in transit;
+
+encryption at rest where appropriate;
+
+secure storage;
+
+backup protection.
+
+Development Security
+private repositories;
+
+code review;
+
+controlled deployments;
+
+dependency management;
+
+environment separation.
+
+Operational Security
+logging;
+
+monitoring;
+
+incident response;
+
+vulnerability management;
+
+backup and recovery.
+
+Personnel
+confidentiality agreements;
+
+controlled onboarding;
+
+access management;
+
+security awareness.
+
+Business Continuity
+backup procedures;
+
+restoration capability;
+
+infrastructure redundancy where appropriate.
+
+Additional Client-specific measures:
+
+[DETAIL]
+
+ANNEX 3 — APPROVED SUBPROCESSORS
+Subprocessor	Service	Processing Purpose	Location	Transfer Mechanism
+[Provider]	[Service]	[Purpose]	[Country]	[N/A / SCC / Adequacy]
+[Provider]	[Service]	[Purpose]	[Country]	[Mechanism]
+[Provider]	[Service]	[Purpose]	[Country]	[Mechanism]
+Examples may include relevant:
+
+cloud providers;
+
+hosting providers;
+
+monitoring providers;
+
+support platforms;
+
+infrastructure providers.
+
+Only actual Subprocessors should be listed.
+
+ANNEX 4 — INTERNATIONAL TRANSFERS
+Where Personal Data is transferred outside the EEA:
+
+Exporter
+[ENTITY]
+
+Importer
+[ENTITY]
+
+Destination
+[COUNTRY]
+
+Transfer Mechanism
+[ADEQUACY / SCCs / OTHER]
+
+SCC Module
+[MODULE IF APPLICABLE]
+
+Supplementary Measures
+[DETAIL]
+
+ANNEX 5 — DATA BREACH CONTACTS
+DISTILLOGIC
+Security Contact: [NAME / ROLE]
+Email: [EMAIL]
+Telephone: [NUMBER]
+
+Privacy Contact: [NAME / ROLE]
+Email: [EMAIL]
+
+CLIENT
+Security Contact: [NAME / ROLE]
+Email: [EMAIL]
+
+Privacy / DPO Contact: [NAME / ROLE]
+Email: [EMAIL]
+
+DISTILLOGIC TECHNOLOGIES
+Software Engineering & Technology Delivery
+
+Patras, Greece · European Union
+
+Website: distillogic.gr
+Privacy Contact: [EMAIL]
+Legal Contact: [EMAIL]
+
+Document Reference: DL-DPA-[NUMBER]
+Version: 1.0
+Classification: Commercial Confidential
+
+Complexity distilled. Technology delivered.
+LEGAL REVIEW NOTICE
+This DPA is a commercial template intended to provide a framework for controller–processor relationships.
+
+Before execution, the Parties should verify:
+
+actual Controller / Processor roles;
+
+categories of Personal Data;
+
+Data Subjects;
+
+Processing purposes;
+
+retention periods;
+
+security controls;
+
+actual Subprocessors;
+
+international transfer mechanisms;
+
+applicable Standard Contractual Clauses;
+
+project-specific regulatory obligations.
+
+Where international transfers, special-category data, large-scale monitoring, healthcare information, financial information or other higher-risk Processing is involved, qualified privacy/legal review is recommended.
+
+
+
+
+
+
+
+  Αυτό το template καλύπτει τα βασικά στοιχεία που πρέπει να υπάρχουν σε controller–processor arrangement: documented instructions, confidentiality, security, subprocessors, assistance with data-subject rights, breaches, DPIAs, deletion/return και audit/compliance information. Η Ευρωπαϊκή Επιτροπή έχει επίσης δικά της Article 28 standard clauses, τα οποία μπορούν να χρησιμοποιηθούν εναλλακτικά ή ως benchmark, και ξεχωριστές SCCs για ορισμένες διεθνείς μεταφορές.  
